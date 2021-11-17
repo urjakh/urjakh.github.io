@@ -20,15 +20,30 @@
 }
 
 @inproceedings{khurana-etal-2021-emotionally,
+    bibtex_show = {true},
     title = "How Emotionally Stable is {ALBERT}? Testing Robustness with Stochastic Weight Averaging on a Sentiment Analysis Task",
     author = "Khurana, Urja  and
       Nalisnick, Eric  and
       Fokkens, Antske",
     booktitle = "Proceedings of the 2nd Workshop on Evaluation and Comparison of NLP Systems",
     month = nov,
-    year = "2021",
+    year = 2021,
     address = "Punta Cana, Dominican Republic",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2021.eval4nlp-1.3",
+    html = {https://aclanthology.org/2021.eval4nlp-1.3},
     pages = "16--31",
+    abstract = {Despite their success, modern language models are fragile. Even small changes in their
+                training pipeline can lead to unexpected results. We study this phenomenon by examining the robustness of ALBERT (Lan
+                et al., 2020) in combination with Stochastic Weight Averaging (SWA)—a cheap way
+                of ensembling—on a sentiment analysis task
+                (SST-2). In particular, we analyze SWA’s stability via CheckList criteria (Ribeiro et al.,
+                2020), examining the agreement on errors
+                made by models differing only in their random
+                seed. We hypothesize that SWA is more stable
+                because it ensembles model snapshots taken
+                along the gradient descent trajectory. We quantify stability by comparing the models’ mistakes with Fleiss’ Kappa (Fleiss, 1971) and
+                overlap ratio scores. We find that SWA reduces error rates in general; yet the models
+                still suffer from their own distinct biases (according to CheckList).
+                }
 }
