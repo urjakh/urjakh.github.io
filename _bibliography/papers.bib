@@ -68,10 +68,78 @@
     abstract = "The subjectivity of automatic hate speech detection makes it a complex task, reflected in different and incomplete definitions in NLP. We present hate speech criteria, developed with insights from a law and social science expert, that help researchers create more explicit definitions and annotation guidelines on five aspects: (1) target groups and (2) dominance, (3) perpetrator characteristics, (4) explicit presence of negative interactions, and the (5) type of consequences/effects. Definitions can be structured so that they cover a more broad or more narrow phenomenon and conscious choices can be made on specifying criteria or leaving them open. We argue that the goal and exact task developers have in mind should determine how the scope of hate speech is defined. We provide an overview of the properties of datasets from hatespeechdata.com that may help select the most suitable dataset for a specific scenario.",
 }
 
-@article{van2022will,
-  title={Will It Blend? Mixing Training Paradigms \& Prompting for Argument Quality Prediction},
-  author={van der Meer, Michiel and Reuver, Myrthe and Khurana, Urja and Krause, Lea and Santamarìa, Selene Báez},
-  journal={arXiv preprint arXiv:2209.08966},
-  html = {https://arxiv.org/abs/2209.08966v1},
-  year={2022}
+@inproceedings{van-der-meer-etal-2022-will,
+    title = "Will It Blend? Mixing Training Paradigms {\&} Prompting for Argument Quality Prediction",
+    author = "van der Meer, Michiel  and
+      Reuver, Myrthe  and
+      Khurana, Urja  and
+      Krause, Lea  and
+      Baez Santamaria, Selene",
+    editor = "Lapesa, Gabriella  and
+      Schneider, Jodi  and
+      Jo, Yohan  and
+      Saha, Sougata",
+    booktitle = "Proceedings of the 9th Workshop on Argument Mining",
+    month = oct,
+    year = "2022",
+    address = "Online and in Gyeongju, Republic of Korea",
+    publisher = "International Conference on Computational Linguistics",
+    url = "https://aclanthology.org/2022.argmining-1.8",
+    pages = "95--103",
+    html = {https://aclanthology.org/2022.argmining-1.8/},
+    abstract = "This paper describes our contributions to the Shared Task of the 9th Workshop on Argument Mining (2022). Our approach uses Large Language Models for the task of Argument Quality Prediction. We perform prompt engineering using GPT-3, and also investigate the training paradigms multi-task learning, contrastive learning, and intermediate-task training. We find that a mixed prediction setup outperforms single models. Prompting GPT-3 works best for predicting argument validity, and argument novelty is best estimated by a model trained using all three training paradigms.",
+}
+
+
+@inproceedings{krause-etal-2023-leveraging,
+    title = "Leveraging Few-Shot Data Augmentation and Waterfall Prompting for Response Generation",
+    author = "Krause, Lea  and
+      B{\'a}ez Santamar{\'\i}a, Selene  and
+      van der Meer, Michiel  and
+      Khurana, Urja",
+    editor = "Chen, Yun-Nung  and
+      Crook, Paul  and
+      Galley, Michel  and
+      Ghazarian, Sarik  and
+      Gunasekara, Chulaka  and
+      Gupta, Raghav  and
+      Hedayatnia, Behnam  and
+      Kottur, Satwik  and
+      Moon, Seungwhan  and
+      Zhang, Chen",
+    booktitle = "Proceedings of The Eleventh Dialog System Technology Challenge",
+    month = sep,
+    year = "2023",
+    address = "Prague, Czech Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.dstc-1.22",
+    pages = "193--205",
+    html = {https://aclanthology.org/2023.dstc-1.22/},
+    abstract = "This paper discusses our approaches for task-oriented conversational modelling using subjective knowledge, with a particular emphasis on response generation. Our methodology was shaped by an extensive data analysis that evaluated key factors such as response length, sentiment, and dialogue acts present in the provided dataset. We used few-shot learning to augment the data with newly generated subjective knowledge items and present three approaches for DSTC11: (1) task-specific model exploration, (2) incorporation of the most frequent question into all generated responses, and (3) a waterfall prompting technique using a combination of both GPT-3 and ChatGPT.",
+}
+
+@inproceedings{krause-etal-2023-confidently,
+    title = "Confidently Wrong: Exploring the Calibration and Expression of (Un)Certainty of Large Language Models in a Multilingual Setting",
+    author = "Krause, Lea  and
+      Tufa, Wondimagegnhue  and
+      Baez Santamaria, Selene  and
+      Daza, Angel  and
+      Khurana, Urja  and
+      Vossen, Piek",
+    editor = "Gatt, Albert  and
+      Gardent, Claire  and
+      Cripwell, Liam  and
+      Belz, Anya  and
+      Borg, Claudia  and
+      Erdem, Aykut  and
+      Erdem, Erkut",
+    booktitle = "Proceedings of the Workshop on Multimodal, Multilingual Natural Language Generation and Multilingual WebNLG Challenge (MM-NLG 2023)",
+    month = sep,
+    year = "2023",
+    address = "Prague, Czech Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.mmnlg-1.1",
+    pages = "1--9",
+    abstract = "While the fluency and coherence of Large Language Models (LLMs) in text generation have seen significant improvements, their competency in generating appropriate expressions of uncertainty remains limited.Using a multilingual closed-book QA task and GPT-3.5, we explore how well LLMs are calibrated and express certainty across a diverse set of languages, including low-resource settings. Our results reveal strong performance in high-resource languages but a marked decline in performance in lower-resource languages. Across all, we observe an exaggerated expression of confidence in the model, which does not align with the correctness or likelihood of its responses. Our findings highlight the need for further research into accurate calibration of LLMs especially in a multilingual setting.",
+    html = {https://aclanthology.org/2023.mmnlg-1.1}
 }
