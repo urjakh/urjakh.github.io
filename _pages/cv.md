@@ -3,12 +3,14 @@ layout: page
 title: cv
 permalink: /cv/
 nav: true
-description: A short version of my CV
+description: A short version of my CV. Reach out to me through e-mail for a detailed and complete version!
 ---
 
 <h3 class="post-title">Work Experience</h3>
 * __2020 - Present: PhD Student at Vrije Universiteit Amsterdam__
     * Generalizability of NLP Experiments
+* __2023 June - September: Visiting Researcher at DILL Lab, USC__
+    * Worked with Swabha Swayamdipta on crowd-based calibration, [paper published at COLM 2024](https://arxiv.org/abs/2408.14141)
 * __2019 - 2020: Machine Learning Engineer at Sensity__ 
     * Developed deep learning algorithms and deployed models for deepfake detection
 * __2016 - 2019: Teaching Assistant Second Year BSc Artificial Intelligence at University of Amsterdam__
